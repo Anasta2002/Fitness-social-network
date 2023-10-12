@@ -1,0 +1,25 @@
+.posts {
+  background-color: blanchedalmond;
+}
+
+.my_post {
+  padding: 20px;
+}
+
+.adding_block {
+  display: flex;
+  align-items: center;
+}
+.textarea {
+  width: 75%;
+  border-radius: 15px;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+
+.btn {
+  width: 20%;
+  border-radius: 15px;
+  height: 40px;
+  background-color: #accdd7;
+}

@@ -1,0 +1,31 @@
+.nav {
+  grid-area: n;
+  background-color: #75abbc;
+  width: 300px;
+  padding: 20px 10px;
+  border-radius: 0 0 0 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  color: #345503;
+  height: 50px;
+  padding: 0 20px;
+  width: 85%;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.item :hover {
+  background-color: #5a9baf;
+  width: 80%;
+  border-radius: 15px;
+  color: gold;
+  transition: all 0.5s;
+}
+
+.active {
+  color: gold;
+  padding: 15px 20px;
+}
